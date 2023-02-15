@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tushar.ram\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --json @parcel/transformer-html -D -W
+
+PATH: 
+  C:\Users\tushar.ram\Documents\GitHub\FusionExp\FusionGrid\node_modules\.bin;C:\Users\tushar.ram\Documents\GitHub\FusionExp\node_modules\.bin;C:\Users\tushar.ram\Documents\GitHub\node_modules\.bin;C:\Users\tushar.ram\Documents\node_modules\.bin;C:\Users\tushar.ram\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\tushar.ram\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\tushar.ram\AppData\Local\Microsoft\WindowsApps;C:\Users\tushar.ram\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tushar.ram\AppData\Local\GitHubDesktop\bin;C:\Users\tushar.ram\AppData\Local\Programs\Git\cmd;C:\Users\tushar.ram\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\tushar.ram\Documents\GitHub\FusionExp\FusionGrid\node_modules\@lmdb\.lmdb-win32-x64-6erI4vUA\node.abi108.node'
+
+npm manifest: 
+  {
+    "name": "fusiongrid",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "build": "parcel build index.html",
+      "start": "parcel index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "fusiongrid": "^1.1.1"
+    },
+    "devDependencies": {
+      "buffer": "^5.7.1",
+      "parcel": "^2.8.3",
+      "process": "^0.11.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
